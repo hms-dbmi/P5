@@ -9,6 +9,10 @@ Lead Contact: Kun-Hsing Yu (Harvard Medical School)
 #### ABSTRACT 
 *Characterizing the proteomic landscape is essential for understanding cancer progression and treatment response. Recent advances in mass spectrometry and protein arrays have enabled high-throughput quantification of protein expression and the identification of post-translational modifications (PTMs) linked to clinical outcomes. However, due to cost and time constraints, proteomic profiling is not routinely performed for all patients. To address this challenge, we established the Pan-Cancer Proteomics Prediction Platform via Pathology Imaging (P5), a weakly supervised machine learning framework that leverages foundation models to systematically predict proteomic profiles from whole-slide images. We analyzed 7,694 whole-slide images (WSIs) across 23 cancer types to evaluate the relationship between tissue morphology and the proteomic dysregulation of 25,158 proteins. Our AI models successfully predicted 4,913 protein markers with an area under the receiver operating characteristic curve exceeding 0.8. We validated our findings using 2,764 WSIs from 850 patients across independent study cohorts and our affiliated hospital. In addition, in-depth analysis of oncogenic pathways uncovered a direct link between tissue morphology and cell cycle regulation. We further demonstrated that P5 can expedite clinical trial enrollment by identifying patients likely to harbor the targeted proteomic profiles. Overall, P5 uncovered previously unrecognized connections between pathology imaging patterns and proteomic alterations, providing a fast and cost-effective approach to proteomic characterization that enhances cancer management and streamlines clinical trial enrollment.*
 
+##### Framework Overview. 
+![method v4](https://github.com/user-attachments/assets/15d2bb0c-b12f-4a40-8a10-15d0dc1f1ba1)
+
+
 ## Pre-requisites:
 * Linux (Tested on Ubuntu 18.04)
 * NVIDIA GPU (Tested on Nvidia GeForce L40s x 48GB)
