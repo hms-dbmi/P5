@@ -1,0 +1,36 @@
+Data:
+
+  data_dir: /tcga_feature/patch_feature
+  dataset_name: BagDataset
+  n_classes: 2
+  split_dir: ../P5_label_folds/TCGA_protein(Non-PTM)_All/brca_over
+  external_dir: ../P5_label_folds/CPTAC_protein(Non-PTM)_All/brca_over
+General:
+  exp_type: cross_validation
+  fold_num: 5
+  result_dir: ./tcga_protein/brca_over
+  seed: 233
+Model:
+  logits_field: bag_logits
+  model_name: P5
+  model_type: public
+  size_arg: virchow
+Train:
+  CosineAnnealingLR:
+    T_max: 50
+    eta_min: 1.0e-06
+  Early_stopping:
+    patient: 10
+    stop_epoch: 10
+    type: auc
+  balance: true
+  batch_size: 32
+  is_augment: true
+  lr: 0.0003
+  max_epochs: 30
+  num_worker: 2
+  optimizer: Adam
+  reg: 1.0e-05
+  train_function: P5
+  train_set_size: 400
+  val_function: classification_general
