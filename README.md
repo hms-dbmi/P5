@@ -2,12 +2,28 @@
 
 <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
 
-by Wang. X, Zhao. J. et al.
+Xiyue Wang*, Junhan Zhao*, Guillaume Larghero, Jiayu Zhang, Wei Yuan, Jinxi Xiang, Bao Li, Tsung-Hua Lee,  Kuan-Yao Huang, Christian Engel,  Jing Zhang, Eliana Marostica, Stuart Schnitt, Nancy U. Lin, Jeffrey A. Golden, MacLean P. Nasrallah, Sen Yang, and Kun-Hsing Yu
 
-Lead Contact: Kun-Hsing Yu (Harvard Medical School)
+
+Lead Contact: Kun-Hsing Yu
+
+Kun-Hsing_Yu AT hms DOT harvard DOT edu
+
+Department of Biomedical Informatics, Harvard Medical School, Boston, MA
+
+Department of Pathology, Brigham and Women’s Hospital, Boston, MA
+
+Harvard Data Science Initiative, Harvard University, Cambridge, MA
+
+Kempner Institute for the Study of Natural and Artificial Intelligence, Harvard University, Cambridge, MA
+
 
 #### ABSTRACT 
 *Characterizing the proteomic landscape is essential for understanding cancer progression and treatment response. Recent advances in mass spectrometry and protein arrays have enabled high-throughput quantification of protein expression and the identification of post-translational modifications (PTMs) linked to clinical outcomes. However, due to cost and time constraints, proteomic profiling is not routinely performed for all patients. To address this challenge, we established the Pan-Cancer Proteomics Prediction Platform via Pathology Imaging (P5), a weakly supervised machine learning framework that leverages foundation models to systematically predict proteomic profiles from whole-slide images. We analyzed 7,694 whole-slide images (WSIs) across 23 cancer types to evaluate the relationship between tissue morphology and the proteomic dysregulation of 25,158 proteins. Our AI models successfully predicted 4,913 protein markers with an area under the receiver operating characteristic curve exceeding 0.8. We validated our findings using 2,764 WSIs from 850 patients across independent study cohorts and our affiliated hospital. In addition, in-depth analysis of oncogenic pathways uncovered a direct link between tissue morphology and cell cycle regulation. We further demonstrated that P5 can expedite clinical trial enrollment by identifying patients likely to harbor the targeted proteomic profiles. Overall, P5 uncovered previously unrecognized connections between pathology imaging patterns and proteomic alterations, providing a fast and cost-effective approach to proteomic characterization that enhances cancer management and streamlines clinical trial enrollment.*
+
+##### Framework Overview. 
+![method v4](https://github.com/user-attachments/assets/15d2bb0c-b12f-4a40-8a10-15d0dc1f1ba1)
+
 
 ## Pre-requisites:
 * Linux (Tested on Ubuntu 18.04)
