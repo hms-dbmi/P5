@@ -28,7 +28,7 @@ scikit-learn==1.2.2,scikit-survival==0.21.0, scipy==1.8.0, tensorboardX==2.6.1, 
 git clone https://github.com/hms-dbmi/P5.git
 cd P5
 conda env create -f environment.yaml
-conda activate gigapath
+conda activate P5
 pip install -e .
 
 ```
