@@ -136,7 +136,7 @@ if __name__ == '__main__':
         df_remove_0 = split_file[split_file[protein_name] == 0]
         df_remove_0 = df_remove_0.drop_duplicates(subset='patient_id')
 
-        if len(df_remove_1) < 10 or len(df_remove_0) < 10: # only for dfci test 5, cptac训练的时候设置为5; other 10
+        if len(df_remove_1) < 10 or len(df_remove_0) < 10: 
             continue
 
         result_dir = os.path.join(cfg.General.result_dir, protein_name, args.config_path.split('/')[-1] + f'_seed{cfg.General.seed}')
