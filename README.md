@@ -23,6 +23,7 @@ Kempner Institute for the Study of Natural and Artificial Intelligence, Harvard 
 
 ##### Framework Overview. 
 ![method v4]([https://github.com/user-attachments/assets/13fd6e14-fede-4c0c-8330-983e59d00f2a])
+<img width="1668" height="968" alt="fig1" src="https://github.com/user-attachments/assets/bb9839f4-0cce-4258-a257-d00512c71587" />
 
 
 
