@@ -155,6 +155,10 @@ python3 train.py \
 
 `--begin` and `--end` used to control repetitive experiments
 
+## Reference and Acknowledgements
+We thank the authors and developers for their contribution as below.
+* [SupContrast: Supervised Contrastive Learning](https://github.com/HobbitLong/SupContrast)
+* [CLAM](https://github.com/mahmoodlab/CLAM)
 
 
 ## Issues
